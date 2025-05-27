@@ -41,15 +41,6 @@ with open("irregular_verbs.txt","r",encoding="utf-8") as file:
 
 
 
-cvc_list=[]
-with open("cvc_full_list.txt","r",encoding="utf-8")as file1:
-    for i in file1:
-        i=i.strip()
-        i=i.lstrip("[[")
-        i=i.rstrip("]]")
-        cvc_list.append(i)
-
-
 
 
 all_verbs=[]
